@@ -55,13 +55,13 @@ song10 = Song.create(name: "The Ways", artist_id: artist6.id, album_id: album6.i
 song10 = Song.create(name: "Opps", artist_id: artist6.id, album_id: album6.id, iframe_url: 'https://www.youtube.com/embed/1lxGCUQSESQ', likes:15)
 
 
-user1 = User.create(name: Faker::Name.name)
-user2 = User.create(name: Faker::Name.name)
-user3 = User.create(name: Faker::Name.name)
+# user1 = User.create(name: Faker::Name.name)
+# user2 = User.create(name: Faker::Name.name)
+# user3 = User.create(name: Faker::Name.name)
 
-review1 = Review.create(comment: "This is trash", song_id: song1.id, user_id: user1.id )
-review2 = Review.create(comment: "Drake is the goat", song_id: song3.id, user_id: user2.id)
-review3 = Review.create(comment: "J.cole rhymes deep", song_id: song7.id, user_id: user3.id)
-review4 = Review.create(comment: "This is why i love cole", song_id: song9.id, user_id: user1.id)
+# review1 = Review.create(comment: "This is trash", song_id: song1.id, user_id: user1.id )
+# review2 = Review.create(comment: "Drake is the goat", song_id: song3.id, user_id: user2.id)
+# review3 = Review.create(comment: "J.cole rhymes deep", song_id: song7.id, user_id: user3.id)
+# review4 = Review.create(comment: "This is why i love cole", song_id: song9.id, user_id: user1.id)
 
 puts "✅ Done seeding!"
