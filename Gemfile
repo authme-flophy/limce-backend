@@ -37,6 +37,9 @@ gem "require_all", "~> 3.0"
 # Provides us with the faker api
 gem "faker"
 
+# A gem that enables us to hash passwords
+gem 'bcrypt', '~> 3.1', '>= 3.1.12'
+
 # These gems will only be used when we are running the application locally
 group :development do
   gem "pry", "~> 0.14.1"
