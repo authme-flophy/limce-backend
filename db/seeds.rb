@@ -59,9 +59,12 @@ song10 = Song.create(name: "Opps", artist_id: artist6.id, album_id: album6.id, i
 # user2 = User.create(name: Faker::Name.name)
 # user3 = User.create(name: Faker::Name.name)
 
-# review1 = Review.create(comment: "This is trash", song_id: song1.id, user_id: user1.id )
-# review2 = Review.create(comment: "Drake is the goat", song_id: song3.id, user_id: user2.id)
-# review3 = Review.create(comment: "J.cole rhymes deep", song_id: song7.id, user_id: user3.id)
-# review4 = Review.create(comment: "This is why i love cole", song_id: song9.id, user_id: user1.id)
+user1 = User.create(username: "waikau", email: "waikaumaina1@gmail.com", password: "waikau123")
+user2 = User.create(username: "maina", email: "ericmaina.dev@gmail.com", password: "prospect@101")
+
+review1 = Review.create(comment: "This is trash", song_id: song1.id, user_id: user1.id )
+review2 = Review.create(comment: "Drake is the goat", song_id: song3.id, user_id: user2.id)
+review3 = Review.create(comment: "J.cole rhymes deep", song_id: song7.id, user_id: user1.id)
+review4 = Review.create(comment: "This is why i love cole", song_id: song9.id, user_id: user1.id)
 
 puts "✅ Done seeding!"
